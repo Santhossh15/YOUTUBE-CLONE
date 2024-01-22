@@ -1,7 +1,7 @@
 import React from 'react'
 import ButtonList from './ButtonList'
 import VideoConatiner from './VideoContainer'
-const MainConatiner = () => {
+const MainContainer = () => {
     return (
         <div className='col-span-11'>
             <ButtonList />
@@ -10,4 +10,4 @@ const MainConatiner = () => {
     )
 }
 
-export default MainConatiner
+export default MainContainer
